@@ -1,9 +1,15 @@
 package ex3;
 
-import java.util.List;
 
-public class ZoneCarnivore {
+public class ZoneCarnivore extends AnimalZone {
+	
+	public double calculerKgsNourritureParJour(){
+		return animaux.size() * 10;
+	}
+	
+}
 
+	/*
 	private List<String> types;
 	private List<String> noms;
 	private List<String> comportements;
@@ -23,4 +29,6 @@ public class ZoneCarnivore {
 	public double calculerKgsNourritureParJour(){
 		return noms.size() * 10;
 	}
-}
+	}
+	*/
+

@@ -1,9 +1,13 @@
 package ex3;
 
-import java.util.List;
 
-public class SavaneAfricaine {
+public class SavaneAfricaine extends AnimalZone {
 
+	public double calculerKgsNourritureParJour(){
+		return animaux.size() * 10;
+	}
+}
+/*
 	private List<String> types;
 	private List<String> noms;
 	private List<String> comportements;
@@ -28,3 +32,4 @@ public class SavaneAfricaine {
 		return noms.size() * 10;
 	}
 }
+*/

@@ -1,9 +1,13 @@
 package ex3;
 
-import java.util.List;
 
-public class Aquarium {
+public class Aquarium extends AnimalZone {
 
+	public double calculerKgsNourritureParJour(){
+		return animaux.size() * 0.2;
+	}
+}
+/*
 	private List<String> types;
 	private List<String> noms;
 	private List<String> comportements;
@@ -24,3 +28,4 @@ public class Aquarium {
 		return noms.size() * 0.2;
 	}
 }
+*/

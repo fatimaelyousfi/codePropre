@@ -1,9 +1,14 @@
 package ex3;
 
-import java.util.List;
 
-public class FermeReptile {
+public class FermeReptile extends AnimalZone {
 
+	public double calculerKgsNourritureParJour(){
+		return animaux.size() * 0.1;
+	}
+	
+}
+	/*
 	private List<String> types;
 	private List<String> noms;
 	private List<String> comportements;
@@ -28,3 +33,4 @@ public class FermeReptile {
 		return noms.size() * 0.1;
 	}
 }
+*/
